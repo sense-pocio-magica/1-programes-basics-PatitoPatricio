@@ -7,6 +7,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Costats en CM");
+        var CM1 = Console.ReadLine();
+        int cm1 = Convert.ToInt32(CM1);
+        Console.WriteLine("El perimetre és "+ cm1 * 4+ " cm");
+        
     }
 }

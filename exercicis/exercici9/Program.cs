@@ -7,6 +7,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Metres");
+        var metres = Console.ReadLine();
+        int peus = Convert.ToInt32(metres);
+        Console.WriteLine("Metres a peus: "+peus*3,2808f);
     }
 }

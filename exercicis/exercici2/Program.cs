@@ -8,6 +8,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Quina és la teva adreça?");
+        var carrer = Console.ReadLine();
+        var numero = Console.ReadLine();
+        var Cpostal = Console.ReadLine();
+        var Poblacio = Console.ReadLine();
+        Console.WriteLine("La teva adreça es: " + carrer +" "+ numero + " "+ Cpostal + " " + Poblacio);
     }
 }

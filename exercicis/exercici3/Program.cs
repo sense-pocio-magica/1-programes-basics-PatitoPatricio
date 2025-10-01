@@ -6,6 +6,22 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("quin producte vols?");
+        string NomProducte = "Caca";
+        int preu = 10;
+        bool estoc = false;
+
+        Controle.WriteLine("El meu producte anomenat" + " " + NomProducte + " " + "te un preu de " + preu);
+
+        if (estoc == true)
+        {
+            Console.WriteLine("Si");
+
+        }
+
+        else {
+
+            Console.WriteLine("no");
+        }
     }
 }

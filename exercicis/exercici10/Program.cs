@@ -8,6 +8,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("El Teu Nom");
+        var nom = Console.ReadLine();
+        Console.WriteLine("El Teu Any de Neixament");
+        var Any_neixament = Console.ReadLine();
+        int any_neixament = Convert.ToInt32(Any_neixament);
+        Console.WriteLine("La teva contrassenya és: "+nom+any_neixament);
+
     }
 }

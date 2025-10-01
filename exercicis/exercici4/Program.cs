@@ -10,7 +10,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Numero d'euros");
+        var Euros = Console.ReadLine();
+        double euro = Convert.ToDouble(Euros);
+        Console.WriteLine("Aixo en pesetes és " + euro * 166.386);
         
     }
 }
