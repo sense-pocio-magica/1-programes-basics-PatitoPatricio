@@ -16,6 +16,26 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("La teva nota de practiques:");
+        var notapractiques = Console.ReadLine();
+        int nota1 = Convert.ToInt32(notapractiques);
+        Console.WriteLine("La teva nota de Examen:");
+        var notaexamen = Console.ReadLine();
+        int nota2 = Convert.ToInt32(notaexamen);
+        double resultat = nota1 * 0.3 + nota2 * 0.7;
+        double resultat2 = Math.Truncate(resultat);
+        Console.WriteLine("La teva nota final és: " + (nota1 * 0.3 + nota2 * 0.7) + " o sigui " + resultat2);
+        
+        Console.WriteLine("La teva nota de practiques:");
+        var notapractiques2 = Console.ReadLine();
+        int nota3 = Convert.ToInt32(notapractiques2);
+        Console.WriteLine("La teva nota de Examen:");
+        var notaexamen2 = Console.ReadLine();
+        int nota4 = Convert.ToInt32(notaexamen2);
+        double resultat3 = nota3 * 0.3 + nota4 * 0.7;
+        double resultat4 = Math.Truncate(resultat3);
+        Console.WriteLine("La teva nota final és: " + (nota3 * 0.3 + nota4 * 0.7) + " o sigui "+ resultat4);
+        
+
     }
 }

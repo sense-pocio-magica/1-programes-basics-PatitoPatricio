@@ -17,6 +17,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("hora actual: ");
+        var hora = Console.ReadLine();
+        int hora1 = Convert.ToInt32(hora);
+        Console.WriteLine("hora a afegir: ");
+        var horaaf = Console.ReadLine();
+        int horaaf1 = Convert.ToInt32(horaaf);
+
+        if ((hora1 + horaaf1) > 12)
+        {
+            Console.WriteLine("la hora és: " + ((hora1 + horaaf1)-12));
+        }
+        else
+        {
+            Console.WriteLine("la hora és: " + (hora1 + horaaf1));
+        }
+        
     }
 }

@@ -17,6 +17,24 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Data");
+        var data = Console.ReadLine();
+
+        char d1 = data[0];
+        char d2 = data[1];
+        char d3 = data[2];
+        char d4 = data[3];
+        char d5 = data[4];
+        char d6 = data[5];
+        char d7 = data[6];
+        char d8 = data[7];
+
+        Console.WriteLine("La data és: "+d1+d2+"/"+d3+d4+"/"+d5+d6+d7+d8);
+        
+
+        
+        
+        
+
     }
 }
