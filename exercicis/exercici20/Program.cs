@@ -12,6 +12,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Numero que vols:");
+        var num = Console.ReadLine();
+        string d1 = num.Substring(0, 1);
+        string d2 = num.Substring(1,1);
+        string d3 = num.Substring(2);
+        Console.WriteLine("El numero al reves: "+(d3)+ (d2) +(d1));
     }
-}
+}       //Aqui he fet que amb substrings agafi cada numero que posi a la variable i amb un Console.WriteLine els he posat del reves
