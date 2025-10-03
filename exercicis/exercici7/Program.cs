@@ -16,4 +16,4 @@ class Program
         double mitjana3 = Convert.ToDouble(Mitjana3);
         Console.WriteLine("Numeros: "+ (mitjana1 + mitjana2 + mitjana3) / 3);
     }
-}
+}       //En aquest exercici he creat les variables per cada nota i cadaescuna les he passat a numeros fent servir el double perque em dongui numeros amb decimals, llavors he fet la mitjana al Console.WriteLine

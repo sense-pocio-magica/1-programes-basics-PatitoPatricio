@@ -8,11 +8,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Quina és la teva adreça?");
-        var carrer = Console.ReadLine();
-        var numero = Console.ReadLine();
-        var Cpostal = Console.ReadLine();
-        var Poblacio = Console.ReadLine();
-        Console.WriteLine("La teva adreça es: " + carrer +" "+ numero + " "+ Cpostal + " " + Poblacio);
+        Console.WriteLine("Quina és la teva adreça?"); //Aixó fa que escrigui a la terminal una sequencia de caracaters
+        var carrer = Console.ReadLine(); //Aixó declara una variable
+        var numero = Console.ReadLine(); //Aixó declara una variable
+        var Cpostal = Console.ReadLine(); //Aixó declara una variable
+        var Poblacio = Console.ReadLine(); //Aixó declara una variable
+        Console.WriteLine("La teva adreça es: " + carrer + " " + numero + " " + Cpostal + " " + Poblacio); //Aixó escriu a la terminal una frase i ajunta totes les variables declarades anteriorment amb l'us del caracter "+"
     }
 }
