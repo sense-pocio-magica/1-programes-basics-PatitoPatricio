@@ -26,5 +26,5 @@ class Program
         Console.WriteLine("el numero és; "+"0"+ nomeselnum1);
 
 
-    }
+    }   //Aqui he fet servir l'us del substring per que nomes m'agafi la part amb decimals i li he posat un 0 devant 
 }

@@ -55,4 +55,4 @@ class Program
         Console.WriteLine("Multiplicació: " + numero3 + " * " + numero4 + " = " + (numero3 * numero4));
         Console.WriteLine("Divisió: " + numero3 + " / " + numero4 + " = " + (numero3 / numero4)+ " i en sobra 0");
     }
-}
+}       //En els dos casos he fet servir variables per determinar el numero i les he convertit a numeros enters amb int tot seguit amb un ConsoleWriteLine he fet cada operació i a la divisio he volgut fer un modul per que em dongui el residu pero com que no se fer-lo servir no m'he volgut complicar

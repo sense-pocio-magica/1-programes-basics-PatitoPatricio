@@ -31,7 +31,7 @@ class Program
 
         Console.WriteLine("La data és: "+d1+d2+"/"+d3+d4+"/"+d5+d6+d7+d8);
         
-
+        //Aqui he declarat una variable per donar els numeros de la data pero no els he convertit a numeros els he declarat com string per determinar cada caracter i posar-lo a dins del Console.WriteLine i definir a on van les barres per donarli format a la data
         
         
         

@@ -10,4 +10,4 @@ class Program
         Console.WriteLine("la paraula cacorra te "+ nom.Length + " lletres");
         
     }
-}
+}       //Aquí nomes he fet que amb un .Length dongui les lletres del string nom

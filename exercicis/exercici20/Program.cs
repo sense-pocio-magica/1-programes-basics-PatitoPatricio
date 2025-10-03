@@ -19,4 +19,4 @@ class Program
         string d3 = num.Substring(2);
         Console.WriteLine("El numero al reves: "+(d3)+ (d2) +(d1));
     }
-}
+}       //Aqui he fet que amb substrings agafi cada numero que posi a la variable i amb un Console.WriteLine els he posat del reves

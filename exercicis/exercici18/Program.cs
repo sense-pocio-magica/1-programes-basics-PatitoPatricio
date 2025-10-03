@@ -33,5 +33,5 @@ class Program
             Console.WriteLine("la hora és: " + (hora1 + horaaf1));
         }
         
-    }
+    }   //Aquí he declarat variables per posar el numero d'hores i he declarat amb un if que si la suma es mes gran que 12 li resti 12 per que doni la hora correcte
 }

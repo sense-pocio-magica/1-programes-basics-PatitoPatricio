@@ -12,4 +12,4 @@ class Program
 
         Console.WriteLine("primera LLetra: "+ primeralletra+ " lletra del final: " + lletradelfinal + " lletra del mitg: " + lletradelmitg);
     }
-}
+} //Aquí he delarat amb un string una paraula i he fet que amb char agafi les lletres corresponents i les he ajuntat totes en un Console.Writeline

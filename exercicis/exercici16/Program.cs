@@ -37,5 +37,5 @@ class Program
         Console.WriteLine("La teva nota final és: " + (nota3 * 0.3 + nota4 * 0.7) + " o sigui "+ resultat4);
         
 
-    }
+    }       //Aqui he definit variables per fer servir els numeros per les operacions, pero tambe he fet servir el double per donar un resultat amb decimals i he estat investigant per veure com truncar els numeros i nomes he sapigut fer servir el Math.Truncate i bueno ho he ajuntat tot a dins de un Console.Writeline i al final he posat la variable resultat perque aixi no hagis te posar tu una lletra que ho faci automatic
 }

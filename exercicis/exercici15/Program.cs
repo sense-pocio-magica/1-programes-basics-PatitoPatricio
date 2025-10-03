@@ -19,4 +19,4 @@ class Program
         
         Console.WriteLine("El teu nom és: "+ nom1 + restadelnom+ " " + cognom2 + restadelcognom);
     }
-}
+}       //Aquí he definit variables per el nom i cognom pero he fet servir substrings per agafar diferents parts del nom i cognom i el que volia que fos en majuscules li he afegit un ToUpper i ho he ajuntat tot en un Console.Writeline
