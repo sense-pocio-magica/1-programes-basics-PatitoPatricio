@@ -15,6 +15,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-    }
+        string num = "23.45";
+        string nomeselnum = num.Substring(2);
+
+        Console.WriteLine("el numero és; " + "0" + nomeselnum);
+        
+        string num1 = "8,5";
+        string nomeselnum1 = num1.Substring(1);
+
+        Console.WriteLine("el numero és; "+"0"+ nomeselnum1);
+
+
+    }   //Aqui he fet servir l'us del substring per que nomes m'agafi la part amb decimals i li he posat un 0 devant 
 }

@@ -7,6 +7,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Metres");
+        var metres = Console.ReadLine();
+        int peus = Convert.ToInt32(metres);
+        Console.WriteLine("Metres a peus: "+peus*3,2808f);
     }
-}
+}       //He creat les variables per els metres i ho ha passat a numero per que es pugui fer la conversio de metres a peus
