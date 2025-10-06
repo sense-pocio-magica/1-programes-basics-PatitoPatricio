@@ -13,7 +13,7 @@ class Program
         Console.WriteLine("Numero d'euros"); //Aixó escriu a la terminal lo estipulat als parentesis
         var Euros = Console.ReadLine(); //Aixó declara una variable
         double euro = Convert.ToDouble(Euros); // Aixó declara un altre variable
-        Console.WriteLine("Aixo en pesetes és " + euro * 166.386); //Aixó escriu a la terminal lo estipulat a les cometes + la variable euros * 166.386 per que et doni els euros en pesetes
+        Console.WriteLine("Aixo en pesetes és " + euro * 166.386); //Aixó escriu a la terminal lo estipulat a les cometes + la variable euros convertides a nombre enter * 166.386 per que et doni els euros en pesetes
         
     }
 }

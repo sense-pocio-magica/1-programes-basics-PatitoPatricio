@@ -13,5 +13,5 @@ class Program
         var Edat = Console.ReadLine();
         int edat = Convert.ToInt32(Edat);
         Console.WriteLine("hola "+ nom +"! "+ "ja tens "+ Edat+ " anys?");
-    }   //En aquest exercici he creat les variables que em demanava el exercici i amb un Console.Writeline ho he ajuntat mes
+    }   //En aquest exercici he creat les variables que em demanava el exercici i amb un Console.Writeline ho he ajuntat amb "+"
 }
